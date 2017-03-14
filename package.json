@@ -1,0 +1,18 @@
+{
+  "name": "wordpress-go-function",
+  "main": "./lib/wordpress-go-function",
+  "version": "0.0.0",
+  "description": "A select function and go WordPress function page link!",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "wordpress-go-function:toggle"
+  },
+  "repository": "https://github.com/mustafakucuk/wordpress-go-function",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,21 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle wordpress-go-function'
+      'command': 'wordpress-go-function:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'WordPress Go Function'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'wordpress-go-function:toggle'
+        }
+      ]
+    ]
+  }
+]
